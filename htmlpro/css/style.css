@@ -1,0 +1,248 @@
+/*Main Primary color */ 
+
+:root{ 
+
+  --color-primary-0: #4691DC; 
+  --color-projectweek-Groen: #6e8b3d; 
+  --color-primary-1: #2C5BC5;
+   --color-primary-2 : #0C43C0 ;
+   --color-primary-3 : #052878; 
+   --color-primary-4 :#031D5A  ; 
+  
+  /*Main Secondary color (1) */
+  --color-secondary-1-0 : #180B9A ;
+  --color-secondary-1-1 :  #4133CA; 
+  --color-secondary-1-2:  #2110C5;
+  --color-secondary-1-3: #12077D ;
+  --color-secondary-1-4: #0C045D ; 
+  
+  /*Main Secondary color (2)*/
+  --color-secondary-2-0 : #045D8D ; 
+   --color-secondary-2-1 : #2288BF;
+   --color-secondary-2-2 : #067AB9;
+    --color-secondary-2-3 : #034B72; 
+    --color-secondary-2-4 : #013855; 
+  
+  } 
+  
+
+
+
+h1{
+  text-align: center;
+}
+
+
+   h4{
+    text-align: center;
+   }
+   h3{
+     text-align: center;
+     color:black;
+   }
+   
+  p{
+    text-align: center;
+  }
+  h5{
+    font-size: 15px;
+  }
+ 
+
+   
+   body{
+    margin: 0;
+    padding: 0;
+     background-image: url("../img/bgn.jpg");
+    
+      background-size: cover;
+      font-family: 'Commissioner', sans-serif;
+     
+}
+.overleg
+  {
+    font-family: 'Commissioner', sans-serif;
+    margin: 15px;
+    padding: 0;
+    color:white;
+    font-size: 15px; 
+    text-align: center;
+      
+  }
+  .comment{
+    margin: 15px;
+    padding: 0;
+    color:black;
+    font-size: 15px; 
+    text-align: center;
+    border-radius: 20px;
+  
+  }
+  .conaction{
+    margin: 30px;
+    
+    padding:20px;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+  }
+  .textarea{
+    border: black;
+    border-radius: 10px;
+    color:brown;
+  }
+  .extra-info{
+    margin: 30px;
+    font-size: 20px;
+    padding:20px;
+    border-radius: 40px;
+    color: white ;
+    text-align: center;
+   
+  }
+  
+
+  .textarea2{
+    border: black;
+    border-radius: 10px;
+    color:brown;
+  
+  }
+  
+.sign-up-form{
+  width: 280px;
+  box-shadow:black;
+  background: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius: 20px;
+}
+.sign-up-form h1{
+  color: black;
+  margin-bottom: 30px;
+  
+
+}
+ .input-box{
+   border-radius: 20px;
+   padding: 9px;
+   margin: 10px 0;
+   width: 100%;
+   border: 1px solid black;
+   outline:none;
+ }
+ button{
+   color: black;
+   width: 100%;
+   border-radius: 20px;
+   font-size: 15px;
+   padding: 9px;
+   margin: 10px 0;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   
+ }
+  
+ .signup-btn{
+background:lightblue ;
+ }
+ .facebook-btn{
+  background:lightblue ;
+ }
+a{
+  text-decoration: none;
+}
+hr{
+  margin-top: 20px;
+  width: 80%;
+}
+.or{
+  background:white;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+button:hover{
+  color:red;
+   }
+   
+   .menu-content {
+    font-family: 'Commissioner', sans-serif;
+     padding: 0 0 0 50px;
+   }
+   
+   .collapsible-menu {
+    background-color:brgb(76, 76, 117);
+    padding: 0 30px;
+    border-bottom: 3px solid silver;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+  
+   }
+   .collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+.collapsible-menu a:hover {
+color: red;
+background-color: silver;
+}
+.collapsible-menu label {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 30px;   
+  display: block;
+  cursor: pointer;
+  padding: 10px 0 10px 50px;
+}
+input#menu {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Commissioner', sans-serif;
+  padding: 0 0 0 50px;
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+
+.conaction, textarea{
+  font-size: 15px;
+  border: none;
+text-shadow: black;
+
+}
+.evaluation{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.submission,input:hover{
+  color: blue;
+}
+
+.start-btn{
+ border: 2px solid Green;
+  width: 15%;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+  padding: 5px;
+  display: block;
+  cursor:  pointer;
+  size: 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+

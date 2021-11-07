@@ -1,0 +1,110 @@
+/*with out the display = flex ===> will justify conent not work*/
+body{
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+
+}
+
+
+ .contener{ /*contener this is the bag for every elements in teh menu */
+   margin: 0;
+   padding: 5px;
+  display: block;
+  background-color: slategrey;
+  justify-content:center;
+
+ }
+
+ nav{
+   margin: 15px;
+   padding: 5px;
+
+ }
+ li{
+   list-style: none;
+ }
+a{
+  text-decoration: none;
+ 
+}
+a:hover{
+text-decoration: underline solid white;
+
+}
+
+ /*item is the class for the div eleent from the list */
+.item li a{    
+  margin: 15px;
+  padding: 5px;
+  display: block; 
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+
+}
+.item a{
+  
+ display: block;
+
+ 
+}
+/*logo is the class elemnet for the logo*/
+.logo a{
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+   display:block;
+    color: aqua;
+  font-size: 25px;
+  list-style: none;
+
+}
+/*zoeken is the class elemnt for the label*/
+/*here is to design the p element in the class zoeken*/
+.zoeken p{
+  margin: 0;
+  padding: 0 0 10px 0;
+  color:white;
+}
+/*here to design the label (label have class zoeken)*/
+.zoeken {
+  display: flex;
+  justify-content: center;
+    
+  }
+  /*the input (search) have the class of search-input*/
+  /*here is to design the field of the search-input element */
+.search-input{
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+}
+/*seaech: that is the div element of the input */
+/*here is to make the inpt move to the center of the page that is way I used the div class search*/
+.search{
+  display: flex;
+ justify-content: center;
+ 
+}
+/*here to gve the button a color */
+button{
+  background-color: slategrey;
+}
+/*btn-search that is the div(class) item of the button to make it move to the center of the page */
+
+.btn-search{
+  display: flex;
+  justify-content:center;
+ 
+
+}
+/*#search-item that is the (id) item of the element <i> to design it easily*/
+#search-item{
+font-size: 25px;
+cursor: pointer;
+color: whitesmoke;
+}
+
+
