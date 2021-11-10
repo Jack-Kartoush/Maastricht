@@ -1,0 +1,270 @@
+.header-container {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/R-kasteel.jpeg);
+  background-position: center;
+  height: 400px;
+}
+
+.logo h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo a {
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.active {
+  background-color: black;
+}
+
+nav ul .item {
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  padding: 20px;
+  border-right: 2px solid #fff;
+}
+
+header ul .item:hover {
+  background-color: #000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.template-holder {
+  height: 100vh;
+  margin: -4% 10%;
+  padding: 10px;
+  display: block;
+}
+
+.template-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.templats {
+  display: inline;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 4px 8px 6px 7px black;
+          box-shadow: 4px 8px 6px 7px black;
+  height: 100%;
+}
+
+.innertemplat-foto-1 {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+#Fotos-ID {
+  width: 100%;
+}
+
+.templats-long {
+  width: 100%;
+  height: 100%;
+  display: inline;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 4px 8px 6px 9px black;
+          box-shadow: 4px 8px 6px 9px black;
+}
+
+.templats-3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 4px 8px 6px 7px black;
+          box-shadow: 4px 8px 6px 7px black;
+}
+
+p {
+  margin: 10px;
+}
+
+@media all and (max-width: 1000px) {
+  .template-holder {
+    display: block;
+  }
+  .template-container,
+  .templats,
+  .templats-long,
+  .templats-3 {
+    display: block;
+    width: 400px;
+  }
+  .innertemplat-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #Fotos-ID {
+    width: 350px;
+  }
+}
+
+.footer-container {
+  background-color: black;
+  display: block;
+  margin: 5px -13%;
+  padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+.footer-innercontainer {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 0.5px solid white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  border-right: none;
+  list-style: none;
+  margin: 10px;
+  padding: auto;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-title {
+  color: white;
+}
+
+.voorwaarden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.inner-voorwaarden {
+  margin: 10px;
+}
+
+#voorwarden-items {
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+#voorwarden-items:hover {
+  font-size: 17px;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+#footer-subtitle {
+  font-size: 10px;
+  margin: 15px;
+  color: white;
+}
+
+.footer-item {
+  text-decoration: none;
+}
+
+@media all and (max-width: 1000px) {
+  .footer-nav .footer-ul {
+    display: block;
+  }
+  .footer-nav .footer-ul li a {
+    margin: 10px;
+    padding: 5px;
+  }
+  .footer-nav .footer-ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer-title {
+    color: burlywood;
+  }
+  #voorwarden-items {
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+  #voorwarden-items:hover {
+    font-size: 13px;
+    -webkit-transition: ease-in-out 1s;
+    transition: ease-in-out 1s;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+/*# sourceMappingURL=Style.css.map */
