@@ -20,15 +20,16 @@
                         <li><a href="#">plaats: Limburig</a></li>
                         <li><a href="#"> postcode: 6584 DT</a></li>
                         <li><a href="#">land: Nederland</a></li>
+                        
 
                     </div>
                     <div class="Overige">
                         <li>
                             <h3 class='footer-title'>Geschidenis Over</h3>
                         </li>
-                        <li><a href="#">1500-1700</a></li>
-                        <li><a href="#">De kastelen</a></li>
-                        <li><a href="#">1900-1988</a></li>
+                        <li><a href="#Vierde-musketier">Vierde-musketier</a></li>
+                        <li><a href="#Brug">De Brug</a></li>
+                        <li><a href="#cannon">cannon</a></li>
                     </div>
                 </ul>
             </nav>
@@ -45,5 +46,6 @@
         <h5 id='footer-subtitle'>Maastricht <small>&COPY 2021</small> </h5>
         
 </section>
+<a name="contact"></a>
 </body>
 </html>

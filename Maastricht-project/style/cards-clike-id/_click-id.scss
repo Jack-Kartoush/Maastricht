@@ -1,0 +1,108 @@
+//*click voor card 2*/
+#click2{
+    display: none;
+}
+#click2:checked ~.popup-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+//*click voor card 3*/
+#click3{
+    display: none;
+}
+#click3:checked ~.popup-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+//*click voor card 4*/
+#click4{
+    display: none;
+}
+#click4:checked ~.popup-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+//*click voor card 5*/
+#click5{
+    display: none;
+}
+#click5:checked ~.popup-content{
+    opacity: 1;
+    visibility: visible;
+}
+//*click voor card 6*/
+.popup-container6{   
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.popup-content6{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 80px;
+  
+    transform: translate(60% 50%);
+    max-width: 60%;
+    max-height:100%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 #000;
+    transition: .3s ease-in;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    z-index: 200;
+}
+#click6{
+    display: none;
+}
+#click6:checked ~.popup-content6{
+    opacity: 1;
+    visibility: visible;
+}
+
+//*click voor card 7*/
+#click7{
+    display: none;
+}
+#click7:checked ~.popup-content7{
+    opacity: 1;
+    visibility: visible;
+}
+
+//*click voor card 8*/
+.popup-container8{   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.popup-content8,
+.popup-content7{
+    top: 255%;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 50px;
+    
+    transform: translate(50% 50%);
+    max-width: 60%;
+    max-height:60%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 #000;
+    transition: .3s ease-in;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    z-index: 200;
+}
+#click8:checked ~.popup-content8{
+    opacity: 1;
+    visibility: visible;
+}
+#click8{
+    display: none;
+}

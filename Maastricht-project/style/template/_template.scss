@@ -17,14 +17,19 @@
     padding: 10px;
     box-shadow: 4px 8px 6px 7px black;
     height:100% ;
+    width: 100%;
 }
-.innertemplat-foto-1{
+.innertemplat-foto{
+    display: block;
     object-fit: fill;
 }
 #Fotos-ID{
     width: 100%;
 }
-
+#Fotos-ID1{
+    width: 100%;
+    height: 400px;
+}
 .templats-long{
     width: 100%;
     height:100% ;
