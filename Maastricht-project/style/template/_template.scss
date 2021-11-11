@@ -1,0 +1,79 @@
+.template-holder{
+    height: 100vh;
+    margin: -4% 10% ;
+    padding: 10px;
+    display: block;
+}
+.template-container {
+    width: 100%;
+    display: flex ;
+    justify-content: space-between;
+  
+}
+.templats{
+   display: inline;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 4px 8px 6px 7px black;
+    height:100% ;
+    width: 100%;
+}
+.innertemplat-foto{
+    display: block;
+    object-fit: fill;
+}
+#Fotos-ID{
+    width: 100%;
+}
+#Fotos-ID1{
+    width: 100%;
+    height: 400px;
+}
+.templats-long{
+    width: 100%;
+    height:100% ;
+    display: inline;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 4px 8px 6px 9px black;
+}
+
+.templats-3{
+    display:inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+     background-color: white;
+     margin: 15px;
+     padding: 10px;
+     box-shadow: 4px 8px 6px 7px black;
+ }
+ 
+ p{
+     margin: 10px;
+ }
+
+
+ @media all and(max-width:1000px){
+     .template-holder{
+        display: block;
+
+     }
+    .template-container,
+    .templats,
+    .templats-long,
+    .templats-3{
+        display:block;
+        width: 400px;
+    }
+    .innertemplat-foto{
+         display: flex;
+        justify-content: center;
+    }
+    #Fotos-ID{
+       
+        width: 350px;
+    }
+ }
+ 

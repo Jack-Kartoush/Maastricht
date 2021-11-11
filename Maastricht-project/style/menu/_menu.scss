@@ -1,0 +1,47 @@
+.header-container{
+    display: block;
+    // background-color: beige;
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/R-kasteel.jpeg) ;
+    background-position: center;
+    height: 400px;
+   
+   
+}
+.logo h1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo a{
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+   
+}
+.active{
+    background-color: black;
+}
+nav ul .item{
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+   border-right: 2px solid #fff;
+    
+}
+header ul .item:hover{
+ background-color:#000;
+} 
+nav ul li a{ 
+    text-decoration: none;
+    color: #ffffff;
+}
