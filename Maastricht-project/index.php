@@ -170,9 +170,9 @@
             <?php include("./info-cards/card8.php");?>
             </div>
         </div>
-        <?php include './includes/footer.php';?> 
+     
     </section> 
-
+   <?php include './includes/footer.php';?> 
            
 
 
